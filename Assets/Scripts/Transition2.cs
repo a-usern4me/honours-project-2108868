@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class Transition : MonoBehaviour {
+public class Transition2 : MonoBehaviour {
     public TMP_Text click;
 
     void Start(){
@@ -16,6 +16,6 @@ public class Transition : MonoBehaviour {
     }
 
     public void onClick(){
-        SceneManager.LoadScene("Equipment");
+        SceneManager.LoadScene("SampleScene");
     }
 }
