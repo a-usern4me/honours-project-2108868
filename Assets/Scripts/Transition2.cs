@@ -16,6 +16,6 @@ public class Transition2 : MonoBehaviour {
     }
 
     public void onClick(){
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Magic");
     }
 }
