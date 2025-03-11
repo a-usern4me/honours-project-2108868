@@ -612,7 +612,7 @@ PrefabInstance:
     - target: {fileID: -6984628890153286073, guid: 09a5bb98296b0ef4181ea46340aadd2e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a3265ac187cd7a344a8176ea1df8cd75, type: 2}
+      objectReference: {fileID: 2100000, guid: 36a47a24c2286447a887d48689f30ec1, type: 2}
     - target: {fileID: -6984628890153286073, guid: 09a5bb98296b0ef4181ea46340aadd2e, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -720,7 +720,7 @@ PrefabInstance:
     - target: {fileID: -2013971533956912465, guid: 09a5bb98296b0ef4181ea46340aadd2e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 556e7cfc13516cd4cb0115231e75ce0d, type: 2}
+      objectReference: {fileID: 2100000, guid: 455d9beda8a1a4fddb5c283861efccb0, type: 2}
     - target: {fileID: 919132149155446097, guid: 09a5bb98296b0ef4181ea46340aadd2e, type: 3}
       propertyPath: m_Name
       value: Character 5 (1)
@@ -768,15 +768,15 @@ PrefabInstance:
     - target: {fileID: 2715573113010178475, guid: 09a5bb98296b0ef4181ea46340aadd2e, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: a3265ac187cd7a344a8176ea1df8cd75, type: 2}
+      objectReference: {fileID: 2100000, guid: 36a47a24c2286447a887d48689f30ec1, type: 2}
     - target: {fileID: 2715573113010178475, guid: 09a5bb98296b0ef4181ea46340aadd2e, type: 3}
       propertyPath: m_Materials.Array.data[3]
       value: 
-      objectReference: {fileID: 2100000, guid: 556e7cfc13516cd4cb0115231e75ce0d, type: 2}
+      objectReference: {fileID: 2100000, guid: 455d9beda8a1a4fddb5c283861efccb0, type: 2}
     - target: {fileID: 3669792126955847883, guid: 09a5bb98296b0ef4181ea46340aadd2e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a3265ac187cd7a344a8176ea1df8cd75, type: 2}
+      objectReference: {fileID: 2100000, guid: 36a47a24c2286447a887d48689f30ec1, type: 2}
     - target: {fileID: 6037534742409916549, guid: 09a5bb98296b0ef4181ea46340aadd2e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.046
