@@ -609,7 +609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: aa73b5ab0eb9ee145a2c30f306f3ddb5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1136663071529359409, guid: aa73b5ab0eb9ee145a2c30f306f3ddb5, type: 3}
       propertyPath: m_Lightmapping
@@ -1528,7 +1528,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd147e4c1102d50449601c3a7a2ed14d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8bba4b580a064ba408eb56b1d66fc32f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2024,7 +2024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: aa73b5ab0eb9ee145a2c30f306f3ddb5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1136663071529359409, guid: aa73b5ab0eb9ee145a2c30f306f3ddb5, type: 3}
       propertyPath: m_Lightmapping
@@ -2037,11 +2037,11 @@ PrefabInstance:
     - target: {fileID: 2715573113010178475, guid: aa73b5ab0eb9ee145a2c30f306f3ddb5, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: -8634379476891219282, guid: 5cb64211bea19974eb96901f77b05544, type: 3}
+      objectReference: {fileID: 2100000, guid: f275fce6a0983d248a24831982d0ac75, type: 2}
     - target: {fileID: 2715573113010178475, guid: aa73b5ab0eb9ee145a2c30f306f3ddb5, type: 3}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: a3265ac187cd7a344a8176ea1df8cd75, type: 2}
+      objectReference: {fileID: 2100000, guid: 36a47a24c2286447a887d48689f30ec1, type: 2}
     - target: {fileID: 2715573113010178475, guid: aa73b5ab0eb9ee145a2c30f306f3ddb5, type: 3}
       propertyPath: m_Materials.Array.data[3]
       value: 
@@ -2049,7 +2049,7 @@ PrefabInstance:
     - target: {fileID: 3669792126955847883, guid: aa73b5ab0eb9ee145a2c30f306f3ddb5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a3265ac187cd7a344a8176ea1df8cd75, type: 2}
+      objectReference: {fileID: 2100000, guid: 36a47a24c2286447a887d48689f30ec1, type: 2}
     - target: {fileID: 5958438921693756439, guid: aa73b5ab0eb9ee145a2c30f306f3ddb5, type: 3}
       propertyPath: m_Lightmapping
       value: 2

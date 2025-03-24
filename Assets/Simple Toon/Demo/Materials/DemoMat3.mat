@@ -16,6 +16,7 @@ Material:
   - _CLIPPED_ON
   - _RIMLIMIT_ON
   - _RIMOVERLAP_ON
+  - _SHNOVERLAP_ON
   - _SPCOVERLAP_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -93,9 +94,9 @@ Material:
     - _RimSmooth: 1
     - _RimTolerc: 1
     - _Segmented: 0
-    - _ShnIntense: 0
-    - _ShnOverlap: 0
-    - _ShnRange: 0.378
+    - _ShnIntense: 0.518
+    - _ShnOverlap: 1
+    - _ShnRange: 0.859
     - _ShnSmooth: 1
     - _SmoothnessTextureChannel: 0
     - _SpcIntence: 0
@@ -116,6 +117,6 @@ Material:
     - _MinColor: {r: 0, g: 0, b: 0, a: 1}
     - _OtlColor: {r: 0.036845855, g: 0.10290625, b: 0.33962262, a: 1}
     - _RimColor: {r: 1, g: 0.9904847, b: 0.8160377, a: 1}
-    - _ShnColor: {r: 0.9406834, g: 1, b: 0.7294118, a: 1}
+    - _ShnColor: {r: 0.019382361, g: 0.039546248, b: 0.2086369, a: 1}
     - _SpcColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
