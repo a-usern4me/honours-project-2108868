@@ -1300,6 +1300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character 2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8eabcbdfa31cead4fba3f108d262d8c8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1136663071529359409, guid: 8eabcbdfa31cead4fba3f108d262d8c8, type: 3}
       propertyPath: m_Lightmapping
       value: 2
@@ -2279,6 +2283,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 937957624}
+  character: {fileID: 919132149155446097, guid: aa73b5ab0eb9ee145a2c30f306f3ddb5, type: 3}
+  anim: {fileID: 0}
 --- !u!1 &2057969165
 GameObject:
   m_ObjectHideFlags: 0

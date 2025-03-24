@@ -12,13 +12,13 @@ public class GearChange : MonoBehaviour {
 
 
     void Update(){
-        if (Input.GetKey("d")){
+        if (Input.GetKey("d") || Input.GetKey(KeyCode.RightArrow)){
             gear.transform.Rotate(0.0f, 0.0f, 0.2f);
             //gear.transform.rotation = Quaternion.Euler(0f, 0f, 90f);
             //Debug.Log("Working");
         }
 
-        if (Input.GetKey("a")){
+        if (Input.GetKey("a") || Input.GetKey(KeyCode.LeftArrow)){
             gear.transform.Rotate(0.0f, 0.0f, -0.2f);
         }
         

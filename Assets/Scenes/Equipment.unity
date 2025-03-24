@@ -489,6 +489,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Equipment
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7986bb990b44ad843bdee63a1958574a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1136663071529359409, guid: 7986bb990b44ad843bdee63a1958574a, type: 3}
       propertyPath: m_Lightmapping
       value: 2
@@ -1837,6 +1841,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1883478676}
+  character: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!114 &907616791
 MonoBehaviour:
   m_ObjectHideFlags: 0

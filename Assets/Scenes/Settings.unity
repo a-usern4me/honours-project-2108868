@@ -611,6 +611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Settings
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0e5fb578fbcfe18469a76301040b2bf4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1136663071529359409, guid: 0e5fb578fbcfe18469a76301040b2bf4, type: 3}
       propertyPath: m_Lightmapping
       value: 2
@@ -836,6 +840,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1911383815}
+  character: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!114 &1414991345
 MonoBehaviour:
   m_ObjectHideFlags: 0
