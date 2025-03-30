@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0e5fb578fbcfe18469a76301040b2bf4
+guid: bbc0a375dd554884e8f313e19adab6b1
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -33,11 +33,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Settings
+      name: Scene
       takeName: Scene
       internalID: -623603649343465320
       firstFrame: 4
-      lastFrame: 32
+      lastFrame: 48
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
