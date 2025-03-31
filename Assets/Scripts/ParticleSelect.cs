@@ -22,7 +22,7 @@ public class ParticleSelect : MonoBehaviour {
 
     public void onClick(){
         //particle.Play();
-        Debug.Log("Working");
+        //Debug.Log("Working");
 
     }
 }
