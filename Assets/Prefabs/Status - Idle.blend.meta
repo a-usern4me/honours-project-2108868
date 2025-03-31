@@ -36,8 +36,8 @@ ModelImporter:
       name: Status - Idle
       takeName: Scene
       internalID: -623603649343465320
-      firstFrame: 28
-      lastFrame: 200
+      firstFrame: 1
+      lastFrame: 173
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
