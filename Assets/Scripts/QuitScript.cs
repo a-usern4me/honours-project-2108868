@@ -16,7 +16,7 @@ public class QuitScript : MonoBehaviour {
     }
 
     public void OnClick(){
-        Debug.Log("Goodbye!");
+        //Debug.Log("Goodbye!");
         Application.Quit();
     }
 }

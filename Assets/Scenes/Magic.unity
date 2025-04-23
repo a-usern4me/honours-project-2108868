@@ -1436,7 +1436,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 45.79, y: 0}
+  m_AnchoredPosition: {x: 45.79001, y: 0}
   m_SizeDelta: {x: -91.58, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1497957688
@@ -2085,7 +2085,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2014502659}
-        m_TargetAssemblyTypeName: Transition3, Assembly-CSharp
+        m_TargetAssemblyTypeName: TransitionMain, Assembly-CSharp
         m_MethodName: onClick
         m_Mode: 1
         m_Arguments:
@@ -2143,11 +2143,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2014502653}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9a13e21780caed439427527aee98adc, type: 3}
+  m_Script: {fileID: 11500000, guid: cf51a12fec7d56d4da1d61348d6c99b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 937957624}
-  character: {fileID: 919132149155446097, guid: aa73b5ab0eb9ee145a2c30f306f3ddb5, type: 3}
+  character: {fileID: 0}
   anim: {fileID: 0}
 --- !u!1 &2028505275
 GameObject:
@@ -2258,7 +2258,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 44.12, y: 0}
+  m_AnchoredPosition: {x: 44.119995, y: 0}
   m_SizeDelta: {x: -88.25, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2057969167

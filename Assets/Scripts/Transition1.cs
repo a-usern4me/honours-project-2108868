@@ -4,14 +4,13 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class transitionLast : MonoBehaviour{
+public class Transition1 : MonoBehaviour {
     public TMP_Text click;
     public GameObject character;
     public Animator anim;
 
     void Start(){
-        anim.SetBool("Settings", false);
-        
+        anim.SetBool("Magic", false);
     }
 
     void Update(){
@@ -19,8 +18,8 @@ public class transitionLast : MonoBehaviour{
     }
 
     public void onClick(){
-        SceneManager.LoadScene("Settings");
-        anim.SetBool("Settings", true);
+        SceneManager.LoadScene("Magic");
+        anim.SetBool("Magic", true);
         DontDestroyOnLoad(character);
     }
 }

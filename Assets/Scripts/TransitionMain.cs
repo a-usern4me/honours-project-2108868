@@ -4,25 +4,23 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class Transition : MonoBehaviour {
+public class TransitionMain : MonoBehaviour {
     public TMP_Text click;
     public GameObject character;
     public Animator anim;
 
-
     void Start(){
-        anim.SetBool("Magic", false);
-        anim.SetBool("Equipment", false);
-        
+        character = GameObject.FindWithTag("Player"); 
     }
 
     void Update(){
-        
+        if(Input.GetKey("escape")){
+            onClick();
+        }
     }
 
     public void onClick(){
-        SceneManager.LoadScene("Equipment");
-        anim.SetBool("Equipment", true);
-        DontDestroyOnLoad(character);
+        Destroy(character);
+        SceneManager.LoadScene("Main Screen");
     }
 }

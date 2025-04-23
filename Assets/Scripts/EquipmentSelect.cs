@@ -16,8 +16,7 @@ public class EquipmentSelect : MonoBehaviour {
     public Slider slider;
     private Image[] Items;
     public int counter;
-    private float timer;
-
+   
     void Start(){
         slider.value = 1;
     

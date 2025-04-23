@@ -241,8 +241,8 @@ GameObject:
   - component: {fileID: 186975784}
   - component: {fileID: 186975783}
   - component: {fileID: 186975782}
-  - component: {fileID: 186975781}
   - component: {fileID: 186975785}
+  - component: {fileID: 186975786}
   m_Layer: 5
   m_Name: Magic
   m_TagString: Untagged
@@ -270,21 +270,6 @@ RectTransform:
   m_AnchoredPosition: {x: 369, y: 104}
   m_SizeDelta: {x: 492, y: 83}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &186975781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 186975779}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c35ebd268bc4084692922ca08c1a3f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  click: {fileID: 430565349}
-  character: {fileID: 624727669}
-  anim: {fileID: 624727671}
 --- !u!114 &186975782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,8 +314,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 186975781}
-        m_TargetAssemblyTypeName: Transition2, Assembly-CSharp
+      - m_Target: {fileID: 186975786}
+        m_TargetAssemblyTypeName: Transition1, Assembly-CSharp
         m_MethodName: onClick
         m_Mode: 1
         m_Arguments:
@@ -400,6 +385,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &186975786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186975779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3421410cb95ee44b5ad80c3d7c30b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  click: {fileID: 430565349}
+  character: {fileID: 624727669}
+  anim: {fileID: 624727671}
 --- !u!1 &214838925
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,7 +680,7 @@ GameObject:
   - component: {fileID: 472037897}
   - component: {fileID: 472037896}
   - component: {fileID: 472037895}
-  - component: {fileID: 472037898}
+  - component: {fileID: 472037900}
   - component: {fileID: 472037899}
   m_Layer: 5
   m_Name: Status
@@ -753,8 +753,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 472037898}
-        m_TargetAssemblyTypeName: Transition4, Assembly-CSharp
+      - m_Target: {fileID: 472037900}
+        m_TargetAssemblyTypeName: Transition3, Assembly-CSharp
         m_MethodName: onClick
         m_Mode: 1
         m_Arguments:
@@ -803,21 +803,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472037893}
   m_CullTransparentMesh: 1
---- !u!114 &472037898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 472037893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6aa766fcbe3e58e469207f84432e9b14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  click: {fileID: 214838927}
-  character: {fileID: 624727669}
-  anim: {fileID: 624727671}
 --- !u!95 &472037899
 Animator:
   serializedVersion: 5
@@ -839,6 +824,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &472037900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472037893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9a13e21780caed439427527aee98adc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  click: {fileID: 214838927}
+  character: {fileID: 624727669}
+  anim: {fileID: 624727671}
 --- !u!1 &496499029
 GameObject:
   m_ObjectHideFlags: 0
@@ -1521,7 +1521,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 866407942}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34ae4cd3ab7006246a96e716607a3916, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c35ebd268bc4084692922ca08c1a3f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1575091434}
@@ -2164,7 +2164,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1747104764}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb5f4fcb4ed43cb49ab6d4fbef065608, type: 3}
+  m_Script: {fileID: 11500000, guid: 6aa766fcbe3e58e469207f84432e9b14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 496499031}

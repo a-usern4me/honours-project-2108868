@@ -4,15 +4,13 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class Transition4 : MonoBehaviour {
+public class Transition4 : MonoBehaviour{
     public TMP_Text click;
     public GameObject character;
     public Animator anim;
 
-
     void Start(){
-        anim.SetBool("Status", false);
-        
+        anim.SetBool("Settings", false);
     }
 
     void Update(){
@@ -20,8 +18,8 @@ public class Transition4 : MonoBehaviour {
     }
 
     public void onClick(){
-        SceneManager.LoadScene("Status");
-        anim.SetBool("Status", true);
+        SceneManager.LoadScene("Settings");
+        anim.SetBool("Settings", true);
         DontDestroyOnLoad(character);
     }
 }

@@ -1725,7 +1725,7 @@ GameObject:
   - component: {fileID: 1574218535}
   - component: {fileID: 1574218534}
   - component: {fileID: 1574218533}
-  - component: {fileID: 1574218532}
+  - component: {fileID: 1574218536}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1753,21 +1753,6 @@ RectTransform:
   m_AnchoredPosition: {x: 874.3, y: -518.9}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1574218532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1574218530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9a13e21780caed439427527aee98adc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  click: {fileID: 1284804708}
-  character: {fileID: 0}
-  anim: {fileID: 0}
 --- !u!114 &1574218533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1812,8 +1797,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1574218532}
-        m_TargetAssemblyTypeName: Transition3, Assembly-CSharp
+      - m_Target: {fileID: 1574218536}
+        m_TargetAssemblyTypeName: TransitionMain, Assembly-CSharp
         m_MethodName: onClick
         m_Mode: 1
         m_Arguments:
@@ -1862,6 +1847,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1574218530}
   m_CullTransparentMesh: 1
+--- !u!114 &1574218536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574218530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf51a12fec7d56d4da1d61348d6c99b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  click: {fileID: 1284804708}
+  character: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!1 &1724243114
 GameObject:
   m_ObjectHideFlags: 0

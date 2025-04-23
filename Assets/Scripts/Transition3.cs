@@ -10,22 +10,16 @@ public class Transition3 : MonoBehaviour {
     public Animator anim;
 
     void Start(){
-        //character = this.GetComponent<GameObject>();
-        character = GameObject.FindWithTag("Player");
-        
+        anim.SetBool("Status", false);
     }
 
     void Update(){
-         
+        
     }
 
     public void onClick(){
-        Destroy(character);
-        //Destroy(this.gameObject);
-        //Destroy(anim);
-        SceneManager.LoadScene("Main Screen");
-        //anim.Play("Scene");
-        //DontDestroyOnLoad(character);
-        
+        SceneManager.LoadScene("Status");
+        anim.SetBool("Status", true);
+        DontDestroyOnLoad(character);
     }
 }

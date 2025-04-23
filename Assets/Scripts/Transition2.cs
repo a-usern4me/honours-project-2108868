@@ -10,7 +10,7 @@ public class Transition2 : MonoBehaviour {
     public Animator anim;
 
     void Start(){
-        anim.SetBool("Magic", false);
+        anim.SetBool("Equipment", false);
     }
 
     void Update(){
@@ -18,8 +18,8 @@ public class Transition2 : MonoBehaviour {
     }
 
     public void onClick(){
-        SceneManager.LoadScene("Magic");
-        anim.SetBool("Magic", true);
+        SceneManager.LoadScene("Equipment");
+        anim.SetBool("Equipment", true);
         DontDestroyOnLoad(character);
     }
 }
