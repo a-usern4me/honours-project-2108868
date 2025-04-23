@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class Transition4 : MonoBehaviour{
+public class Transition4 : MonoBehaviour {
     public TMP_Text click;
     public GameObject character;
     public Animator anim;
