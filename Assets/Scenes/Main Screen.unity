@@ -1202,28 +1202,13 @@ PrefabInstance:
       addedObject: {fileID: 624727671}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f72a95bf0e43c134d8e9a7fd27603fb0, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 624727670}
+      addedObject: {fileID: 624727673}
   m_SourcePrefab: {fileID: 100100000, guid: f72a95bf0e43c134d8e9a7fd27603fb0, type: 3}
 --- !u!1 &624727669 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f72a95bf0e43c134d8e9a7fd27603fb0, type: 3}
   m_PrefabInstance: {fileID: 624727668}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &624727670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 624727669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9a13e21780caed439427527aee98adc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  click: {fileID: 0}
-  character: {fileID: 0}
-  anim: {fileID: 0}
 --- !u!95 &624727671
 Animator:
   serializedVersion: 5
@@ -1245,6 +1230,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &624727673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624727669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf51a12fec7d56d4da1d61348d6c99b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  click: {fileID: 0}
+  character: {fileID: 624727669}
+  anim: {fileID: 624727671}
 --- !u!1 &705325626
 GameObject:
   m_ObjectHideFlags: 0
