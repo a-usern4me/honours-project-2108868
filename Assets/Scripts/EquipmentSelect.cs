@@ -16,10 +16,11 @@ public class EquipmentSelect : MonoBehaviour {
     public Slider slider;
     private Image[] Items;
     public int counter;
+    private float timer;
 
     void Start(){
         slider.value = 1;
-       
+    
         Items = new Image[5];
         Items[0] = item;
         Items[1] = item2;
@@ -29,32 +30,60 @@ public class EquipmentSelect : MonoBehaviour {
     }
 
     void Update(){
-        if (slider.value <= 1){
-            slider.value = 1;
-            counter = 0;
-        }
-
-        if (slider.value >= 5){
-            slider.value = 5;
-            counter = 4;
-        }
-
-        if (slider.value-1 == counter){
-            Items[counter].sprite = highlightedItem;
-        } else {
-            Items[counter].sprite = unselected;
+        for (int i = 0; i < Items.Length; i++){
+            if (slider.value-1 == counter && counter == i){
+                Items[counter].sprite = highlightedItem;
+            } else {
+                Items[i].sprite = unselected;
+            }
         }
 
         if (Input.GetKeyDown("w") || Input.GetKeyDown(KeyCode.UpArrow)){
-            slider.value -= 1;
-            counter--;
-            Items[counter+1].sprite = unselected;
+            if (slider.value > 1){
+                slider.value -= 1;
+                counter--;
+
+            } else {
+                slider.value = 5;
+                counter = 4;
+            }
         }
 
         if (Input.GetKeyDown("s") || Input.GetKeyDown(KeyCode.DownArrow)){
-            slider.value += 1;
-            counter++;
-            Items[counter-1].sprite = unselected;
+            if (slider.value < 5){
+                slider.value += 1;
+                counter++;
+
+            } else {
+                slider.value = 1;
+                counter = 0;
+            } 
         }
+    }
+
+    /* Mouse Selection */
+    public void Click1(){
+        slider.value = 1;
+        counter = 0;
+    }
+
+    public void Click2(){
+        slider.value = 2;
+        counter = 1;
+    }
+
+    public void Click3(){
+        slider.value = 3;
+        counter = 2;
+    }
+
+    public void Click4(){
+        slider.value = 4;
+        counter = 3;
+    }
+
+    public void Click5(){
+        slider.value = 5;
+        counter = 4;
     }
 }
